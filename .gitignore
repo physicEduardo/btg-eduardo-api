@@ -1,0 +1,53 @@
+# Generic Java
+*.class
+# Package Files
+# *.jar
+# *.war
+# *.ear
+# virtual machine crash logs, see http://www.java.com
+hs_err_pid*
+
+# Gradle
+.gradle/
+/build/
+# Ignore Gradle GUI config
+gradle-app.setting
+# Exclude the Gradle wrapper jar file that is usually committed to VCS
+!gradle/wrapper/gradle-wrapper.jar
+# Cache of project
+.gradletasknamecache
+
+# Spring Boot Specifics
+.sts4-cache/
+.springBeans
+
+# IDE-specific files and directories
+.idea/
+*.iml
+*.ipr
+*.iws
+.eclipse/
+.classpath
+.project
+.settings/
+bin/
+tmp/
+.vscode/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Environment and Log Files
+.env
+*.properties.local
+logs/
+*.log
+*.txt
+
+# Maven build directory if using a mixed setup
+target/
+
+# Node modules if using frontend integration
+node_modules/
+
